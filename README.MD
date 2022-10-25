@@ -12,10 +12,9 @@ El siguiente repositorio contiene:
 
 -   [Requerimientos](https://mvmingenieriadesoftware-my.sharepoint.com/:w:/g/personal/fabian_coronel_mvm_com_co/EZs4DVtHluVDv3GwU3JM-GgB5V8MCbd34AW9uwy-GFfHmQ?e=qjUKbt)
 
-## Mockup Frontend 
+## Mockup Frontend
 
-- [Mockup-Gestion-Solicitudes](https://xd.adobe.com/view/af9a222b-deba-4611-bbbb-1baf2a11d88f-fac9/)
-
+-   [Mockup-Gestion-Solicitudes](https://xd.adobe.com/view/af9a222b-deba-4611-bbbb-1baf2a11d88f-fac9/)
 
 ### Pre-requisitos 📋
 
@@ -43,9 +42,9 @@ npm run dev
 
 Una vez instalado y ejecutado el proyecto. Podremos encontrar: la configuración a la base de datos, puerto, modelo, controlador y rutas.
 
-## DEMO de como usar las APIS 👾
+## DEMO👾
 
-![demo.gif]()
+![demo.gif](https://github.com/DaaanielM/front-mvm/blob/master/demo.gif)
 
 ## Despliegue 📦
 

@@ -1,0 +1,17 @@
+.box {
+    max-width : 100%;
+    background: #C2D500;
+    padding   : 1em;
+}
+
+.title {
+    color     : #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 870px) {
+    .box {
+        max-width: 100%;
+        padding  : .5em;
+    }
+}

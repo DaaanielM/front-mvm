@@ -1,0 +1,137 @@
+.main {
+    width          : 70%;
+    margin         : 0 auto;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+
+}
+
+.formBody {
+    width         : 100%;
+    background    : #1D2126;
+    margin        : 2rem auto;
+    padding       : 1rem 4rem;
+    display       : flex;
+    flex-direction: column;
+    border-radius : 8px;
+    box-shadow    : rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.type {
+    color     : #fff;
+    margin-top: 1rem;
+}
+
+
+.line {
+    display   : inline-block;
+    width     : 100%;
+    height    : 1px;
+    background: #C9C9C9;
+    margin    : 1rem 0;
+}
+
+
+/* Formulario */
+.select {
+    display      : block;
+    width        : 100%;
+    border       : none;
+    border-radius: 5px;
+    height       : 2.2rem;
+    margin       : .8rem 0;
+    box-shadow   : #f3f5f153 0px 7px 19px 0px;
+
+}
+
+
+.mainBoxInput {
+    width                : 100%;
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    gap                  : 0 2rem;
+}
+
+
+
+.formLabel {
+    display    : block;
+    color      : #CECACA;
+    font-weight: bold;
+    margin     : .5rem 0;
+}
+
+.formInput {
+    height       : 2.2rem;
+    width        : 100%;
+    border       : none;
+    border-radius: 10px;
+    text-indent  : 1em;
+    color        : #000;
+    font-size    : 1rem;
+    margin-bottom: 1.3rem;
+    box-shadow   : #f3f5f153 0px 7px 19px 0px;
+
+}
+
+.text {
+    width        : 100%;
+    height       : 7rem;
+    border       : none;
+    border-radius: 5px;
+    color        : #000;
+    text-indent  : 1em;
+    resize       : none;
+    min-height   : 150px;
+    max-height   : 100px;
+    font-size    : 1rem;
+    box-shadow   : #f3f5f153 0px 7px 19px 0px;
+
+}
+
+
+.btn {
+    display      : inline-block;
+    width        : 100%;
+    max-width    : 120px;
+    border       : none;
+    border-radius: 50px;
+    background   : #C2D500;
+    height       : 2.8rem;
+    margin       : 1.5rem auto;
+    color        : #fff;
+    font-weight  : bold;
+    transition   : all .3s ease-in-out;
+    box-shadow   : #88c6513c 0px 7px 19px 0px;
+    cursor       : pointer;
+    font-size    : 1em;
+    transition   : all 200ms;
+}
+
+
+.btn:hover {
+    background: #b1c500d8;
+    color     : rgba(255, 255, 255, 0.947);
+}
+
+@media(max-width: 870px) {
+    .main {
+        width: 100%;
+    }
+
+    .mainBoxInput {
+        grid-template-columns: 1fr;
+    }
+
+    .formInput {
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        height: 2.5rem;
+        margin: 1rem auto;
+    }
+
+}

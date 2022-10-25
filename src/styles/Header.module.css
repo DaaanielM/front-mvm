@@ -1,0 +1,63 @@
+.header {
+    width : 90%;
+    margin: 0 auto;
+}
+
+.image {
+    height: 60px;
+}
+
+
+.navbar {
+    min-height     : 80px;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 0 80px;
+}
+
+
+.navmenu {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    gap            : 60px;
+}
+
+.navlogo {
+    font-size: 2rem;
+}
+
+.navlink {
+    transition: 0.7s ease;
+    color     : #48A4FF;
+}
+
+.navlink:hover {
+    color: dodgerblue;
+}
+
+.hamburger {
+    display: none;
+    cursor : pointer;
+}
+
+.bar {
+    display           : block;
+    width             : 25px;
+    height            : 3px;
+    margin            : 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition        : all 0.3s ease-in-out;
+    background        : white;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar {
+        padding: 0 20px;
+    }
+
+
+
+
+}
